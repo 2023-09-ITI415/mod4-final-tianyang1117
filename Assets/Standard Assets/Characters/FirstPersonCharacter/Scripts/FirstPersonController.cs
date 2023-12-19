@@ -50,7 +50,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         void SetCountText()
         {
-            countText.text = "Count: " + count.ToString() + "/26";
+            countText.text = "Count: " + count.ToString() + "/26 Get all to Win!";
             if (count >= 26)
             {
                 winTextObject.SetActive(true);
